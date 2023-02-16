@@ -9,22 +9,25 @@
 Hotel Reservations Dataset:Can you predict if customer is going to cancel the reservation?  
 위 데이터셋은 예약일과 도착일 사이의 일수, 예약 당일 평균 가격, 고객이 요청한 총 특별 요청 수, 도착한 달 등 호텔에 예약했던 고객에 대한 데이터를 가지고 있습니다.
 ## 프로젝트 수행 과정
-![image](https://user-images.githubusercontent.com/70365836/122967695-b3977e00-d3c5-11eb-80f8-b43dac3dcaf4.png)
-
-<br/>
-
-- Step 2 결과 생성된 모델의 validation dataset에 대한 accuracy, f1 score (소수점 다섯째 자리에서 반올림)
-
-| Siamese neural network 부분에 사용된 layer | Accuracy | F1 score |
-|:----------------------------------------|:---------|:---------|
-| (MaLSTM)                                | 0.7731   | 0.2635   |
-| LSTM                                    | 0.7844   | 0.2801   |
-| GRU                                     | 0.7889   | 0.3153   |
-| BiLSTM                                  | 0.7867   | 0.2972   |
-| BiGRU                                   | 0.7910   | 0.3438 |
-| Conv1D + LSTM | 0.7932 | 0.4079 |
-| Conv1D + GRU | 0.7918 | 0.3719 |
-| Conv1D + BiLSTM | 0.7923 | 0.4123 |
-| Conv1D + LSTM + LSTM | 0.7969 | 0.3530 |
-| Conv1D + BiLSTM + LSTM | 0.7955 | 0.3689 |
-| Conv1D + LSTM + BiLSTM | 0.7967 | 0.3926 |
+1. Importing Dataset
+2. Data Analysis  
+categorical Variables  
+continous Variables  
+Analysis  
+3. Model Building  
+Label Encoder  
+Balancing Classes  
+StandardScaler  
+Naive Bayes - Gaussian Model  
+Decision Tree  
+Random Forest  
+Extra Trees  
+K Means  
+K Neighbors  
+Logistic Regression  
+AdaBoost  
+Gradient Boosting  
+Neural Network  
+- 주요 변수 확인
+- 결과 확인
+4. 
