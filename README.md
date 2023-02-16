@@ -15,9 +15,9 @@ categorical Variables
 continous Variables  
 Analysis  
 3. Model Building  
-Label Encoder  
-Balancing Classes  
-StandardScaler  
+- Label Encoder  
+- Balancing Classes  
+- StandardScaler  
 Naive Bayes - Gaussian Model  
 Decision Tree  
 Random Forest  
@@ -30,4 +30,21 @@ Gradient Boosting
 Neural Network  
 - 주요 변수 확인
 - 결과 확인
-4. 
+4. Conclusion
+## 모델의 dataset에 대한 f1 score (소숫점 다섯 째 자리에서 반올림)
+| Model | accuracy |
+|:----------------------------------------|:---------|
+| Gaussian Model                          | 0.5663 |
+| Decision Tree                           | 0.8665 |
+| Random Forest                           | 0.8714 |
+| Extra Trees                             | 0.9341 |
+| K Means                                 | 0.6756 |
+| K Neighbors                             | 0.8734 |
+| Logistic Regression                     | 0.7795 |
+| AdaBoost                                | 0.8207 |
+| Gradient Boosting                       | 0.8838 |
+| Neural Network                          | 0.8719 |
+## 최종 모델
+Extra Trees  
+-dataset에 대한 결과
+  - accuracy: 약 0.9341
