@@ -38,7 +38,7 @@ Neural Network
 4. Conclusion
 ## 모델의 dataset에 대한 accuracy (소숫점 다섯 째 자리에서 반올림)
 | Model | accuracy |
-|:----------------------------------------|:---------|
+|:----------------------------------------|:-------|
 | Gaussian Model                          | 0.5663 |
 | Decision Tree                           | 0.8665 |
 | Random Forest                           | 0.8714 |
