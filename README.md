@@ -9,7 +9,7 @@
 고객이 호텔예약을 취소할지 예측하는 모델을 만드는 프로젝트입니다. 온라인 호텔 예약 채널은 예약 가능성과 고객의 행동을 극적으로 변화시켰습니다. 그러나 취소나 노쇼로 상당수 호텔 예약이 취소되고 있는데 대표적인 취소 사유로는 계획 변경, 일정 충돌 등이 있습니다. 이는 종종 호텔이 처리해야 할 수익 감소 요인이 될 수 있습니다. 따라서, 취소나 노쇼로 상당수 호텔 예약이 취소될 가능성을 미리 파악함으로써 수익 감소 요인을 줄일 수 있는 모델을 만들고자 하였습니다.  
 <br/>
 ## 사용한 데이터셋
-Hotel Reservations Dataset:Can you predict if customer is going to cancel the reservation?  
+Hotel Reservations Dataset: Can you predict if customer is going to cancel the reservation?  
 
 위 데이터셋은 예약일과 도착일 사이의 일수, 예약 당일 평균 가격, 고객이 요청한 총 특별 요청 수, 도착한 달 등 호텔에 예약했던 고객에 대한 데이터를 가지고 있습니다.  
 <br/>
