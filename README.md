@@ -13,7 +13,7 @@ Hotel Reservations Dataset: Can you predict if customer is going to cancel the r
 
 위 데이터셋은 예약일과 도착일 사이의 일수, 예약 당일 평균 가격, 고객이 요청한 총 특별 요청 수, 도착한 달 등 호텔에 예약했던 고객에 대한 데이터를 가지고 있습니다.  
 <br/>
-## 프로젝트 수행 과정
+## 프로젝트 목록
 1. Importing Dataset
 2. Data Analysis  
 categorical Variables  
